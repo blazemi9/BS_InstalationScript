@@ -50,8 +50,8 @@ if [ -n "$1" ]
 		echo bs_instaler.sh --- Hotovo
 
 		#adb shell su reboot
-		adb shell su rm -f -i -r -d /mnt/sdcard/bs_instaler.sh > text.txt
-		adb shell su rm -f -i -r -d /mnt/sdcard/bs_lite.apk > text.txt
+		adb shell su rm -f -i -r -d /mnt/sdcard/bs_instaler.sh > /dev/null
+		adb shell su rm -f -i -r -d /mnt/sdcard/bs_lite.apk > /dev/null
 
 		echo bs_instaler.sh --- Uklizeno
 		echo bs_lite.apk --- Uklizeno 
